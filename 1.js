@@ -1,8 +1,8 @@
 function talk() {
     var know = {
         "hello" : "hello,nice to meet you",
-        "hi" : "hello...nice to meet you",
-        "who are you" : "Hello... i am bot ",
+        "hi" : "hello,nice to meet you",
+        "who are you" : "i am bot ",
         "what is your age" : " i am infinite",
         "how old are you" : " i don't know...but younger than you",
         "How are you" : "Good :) ",
