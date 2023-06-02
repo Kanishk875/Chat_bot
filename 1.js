@@ -1,10 +1,10 @@
 function talk() {
     var know = {
-        "hello" : "hello,nice to meet you","Hi, what's up ?",
-        "hi" : "hello,nice to meet you",
-        "who are you" : "Hello , i am bot ",
+        "hello" : "hello,nice to meet you","Hi... what's up ?",
+        "hi" : "hello...nice to meet you",
+        "who are you" : "Hello... i am bot ",
         "what is your age" : " i am infinite",
-        "how old are you" : " i don't know,but younger than you",
+        "how old are you" : " i don't know...but younger than you",
         "How are you" : "Good :) ",
         "What can i do for you" : "Please Appreciate for this project. ",
         "Are you a bot ?" : "Oh..., Yes.",
