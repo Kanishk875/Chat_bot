@@ -8,15 +8,19 @@
 </head>
 <body>
 
-    <div class="glass">
-    <h1>Ask Your Question ?</h1>
-    <h2> Yeah , Ask Anything...</h2>
-    <div class="input">
-        <input type="text" id="userBox" onkeydown="if(event.keyCode == 13){ talk()}" placeholder="Type Your Question" />
-    </div>
-    <p id="chatLog"> Answer Apperaing Here </p>
-    </div>
-  
+  <div class="glass">
+                <div>
+                    <h3>Ask Your Question ?</h3>
+                    <p>Hey! Feel Free To Ask !</p>
+                    <input type="text" id="userBox" onkeydown="if(event.keyCode == 13){ talk()}"
+                        placeholder="Type Your Question" />
+                    <p id="chatLog"> </p>
+                    <script src="chatbot.js"></script>
+                </div>
+                <div>
+                    <a href=""> <img src="/images/chat_bot.PNG" alt="chat bot"></a>
+                </div>
+
 <script src="1.js"></script>    
 </body>
 </html>
