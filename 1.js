@@ -13,7 +13,7 @@ function talk() {
         "Bye" : "Okay! Stay Healthy and Happy , will meet soon." 
     };
     
-    var user = document.getElementById("userBox").value;
+    var user = document.getElementById("userBox").value.toLowerCase();
     document.getElementById("chatLog").innerHTML = user+"<br>";
     if (user in know) {
         document.getElementById("chatLog").innerHTML = know[user]+"<br>";
