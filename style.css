@@ -1,80 +1,35 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    width: 100vw;
-    height: 100vw;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 10em 10em;
-    background-color: black;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .glass {
-    width: 500px;
-    height: 400px;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 50px;
-    color: #fff;
-    border-radius: 9px;
-    backdrop-filter: blur(50px);
-    border: 2px solid transparent;
-    background-clip: padding-box;
-    box-shadow: 10px 10px 10px rgba(45, 55, 60, 0.3);
-    line-height: 1.5;
-    transform: translateY(-5%);
-    transition: transform(0.5s);
-}
-
-.glass-1 {
-    width: 500px;
-    height: 400px;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 50px;
-    color: rgb(122, 82, 82);
-    border-radius: 9px;
-    backdrop-filter: blur(50px);
-    border: 2px solid transparent;
-    background-clip: padding-box;
-    box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
-    line-height: 1.5;
-    transform: translateY(-5%);
-    transition: transform(0.5s);
-    font-size: 1.7rem;
-}
-
-.glass h1 {
-    font-size: 1.5rem;
-    margin-top: 20px;
-}
-
-.input {
-    width: 100%;
-    height: 70px;
-    overflow: hidden;
-    margin-top: 40px;
-}
-
-.input input {
-    width: 100%;
-    height: 70px;
-    border: none;
-    padding-left: 30px;
-    padding-top: 0;
-    outline: none;
-    font-size: 1.5rem;
-    border-radius: 20px;
-}
-
-.glass p {
-    font-size: 1.6rem;
-    margin-top: 30px;
-}
+    /* ... Existing CSS styles ... */
+    width: 200px; /* Reduce the width of the chat box as per your preference */
+    height: auto; /* Allow the height to adjust based on content */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 10px; /* Reduce the border-radius for a less rounded appearance */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Reduce the box shadow for a subtle effect */
+    font-size: 20px;
+  }
+  
+  .glass > div:first-child {
+    /* ... Existing CSS styles ... */
+    padding: 10px; /* Reduce the padding for more compact content */
+    background-color: rgba(165, 246, 59, 0.95); /* Slightly increase the opacity of the background */
+    border-radius: 10px 10px 0 0; /* Adjust the border-radius for the top corners */
+  }
+  
+  .glass > div:last-child {
+    /* ... Existing CSS styles ... */
+    background-color: rgba(165, 246, 59, 0.95);
+    border-radius: 0 0 10px 10px; /* Adjust the border-radius for the bottom corners */
+  }
+  
+  .glass a img {
+    /* ... Existing CSS styles ... */
+    width: 100px; /* Reduce the width of the chatbot image as per your preference */
+    height: 100px; /* Adjust the height accordingly to maintain the aspect ratio */
+    border-radius: 50%;
+    margin: 5px; /* Reduce the margin for a more compact appearance */
+  }
+  .glass div input{
+    background-color: rgb(157, 154, 151);
+  }
