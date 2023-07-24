@@ -1,6 +1,9 @@
+body{
+    background-color: purple
+}
 .glass {
     /* ... Existing CSS styles ... */
-    width: 200px; /* Reduce the width of the chat box as per your preference */
+    width: 500px; /* Reduce the width of the chat box as per your preference */
     height: auto; /* Allow the height to adjust based on content */
     position: fixed;
     bottom: 20px;
