@@ -7,7 +7,7 @@ body{
     height: auto; /* Allow the height to adjust based on content */
     position: fixed;
     bottom: 20px;
-    right: 20px;
+   
     border-radius: 10px; /* Reduce the border-radius for a less rounded appearance */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Reduce the box shadow for a subtle effect */
     font-size: 20px;
@@ -16,13 +16,13 @@ body{
   .glass > div:first-child {
     /* ... Existing CSS styles ... */
     padding: 10px; /* Reduce the padding for more compact content */
-    background-color: rgba(165, 246, 59, 0.95); /* Slightly increase the opacity of the background */
+    background-color: green; /* Slightly increase the opacity of the background */
     border-radius: 10px 10px 0 0; /* Adjust the border-radius for the top corners */
   }
   
   .glass > div:last-child {
     /* ... Existing CSS styles ... */
-    background-color: rgba(165, 246, 59, 0.95);
+    background-color: green;
     border-radius: 0 0 10px 10px; /* Adjust the border-radius for the bottom corners */
   }
   
